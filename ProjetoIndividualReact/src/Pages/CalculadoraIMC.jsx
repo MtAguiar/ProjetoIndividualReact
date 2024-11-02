@@ -53,12 +53,12 @@ export default function CalculadoraIMC() {
         </label>
       </div>
       <button onClick={calcularIMC}>Calcular IMC</button>
-      {imc && (
+      
         <div>
           <p>Seu IMC é: {imc}</p>
           <p>Sua classificação é: {classificacao}</p>
         </div>
-      )}
+      
     </div>
   );
 }
